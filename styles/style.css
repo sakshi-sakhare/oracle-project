@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: black;
+}
+#main{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    padding-top: 20px;
+    
+}
+
+ul li {
+    font-size: 20px;
+    display: inline;
+     color: white;
+}
+
+li a{
+    color: white;
+    padding: 5px;
+    margin: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+a:hover{
+    text-decoration:underline;
+}
+
+.main-part2{
+    height: 550px;
+    width: 100%;
+    /* background-color: rgb(202, 224, 202); */
+}
+.part1{
+    height: 100%;
+    width: 65%;
+    float: left;
+    
+    /* background-color: pink;
+    
+  */
+}
+
+.part2{
+    height: 100%;
+    width: 35%;
+    background-color: lightblue;
+    float:left;
+}
+.part1 h1{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.part1 p{
+    font-size:20px ;
+    margin-left: 50px;
+}
+
+.part1 h4{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    
+
+}
+.btn {
+    text-decoration: none;
+    margin-left: 30px;
+    
+}
+.main-part3{
+    height: 14px;
+    width: 100%;
+    background: url("/images/oracle3.png") no-repeat ;
+    background-size: cover;
+
+}
+.part-pic1
+{
+height: 500px;
+width: 100%;
+background-color:rgb(232, 228, 233);
+
+}
+.pic1-inner1{
+    height: 100%;
+    width:50%;
+    background-color :rgb(232, 228, 233);
+    float: left;
+}
+.pic1-inner2{
+    height: 100%;
+    width: 50%;
+    background-color:rgb(243, 232, 245);
+    float: left;
+    padding-top: 50px;
+
+}
+.dash{
+    height:10px;
+    width: 100px;
+    background-color: yellow;
+}
+#pic-pre p{
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+.video{
+    height:220px;
+    width: 350px;
+    background-color: lightcoral;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.video button img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 10px;
+}
