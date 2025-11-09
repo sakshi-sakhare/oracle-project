@@ -1,128 +1,164 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-body{
+
+body {
     color: black;
 }
-#main{
+
+#main {
     height: 70px;
     width: 100%;
     background-color: black;
     padding-top: 20px;
-    
+
 }
 
 ul li {
     font-size: 20px;
     display: inline;
-     color: white;
+    color: white;
 }
 
-li a{
+li a {
     color: white;
     padding: 5px;
     margin: 30px;
     text-decoration: none;
     font-size: 20px;
-    
-}
-a:hover{
-    text-decoration:underline;
+
 }
 
-.main-part2{
+a:hover {
+    text-decoration: underline;
+}
+
+.main-part2 {
     height: 550px;
     width: 100%;
     /* background-color: rgb(202, 224, 202); */
 }
-.part1{
+
+.part1 {
     height: 100%;
     width: 65%;
     float: left;
-    
+
     /* background-color: pink;
     
   */
 }
 
-.part2{
+.part2 {
     height: 100%;
     width: 35%;
-    background-color: lightblue;
-    float:left;
+    background:url("/images/oracle5.png");
+    float: left;
 }
-.part1 h1{
+
+.part1 h1 {
     font-size: 50px;
     margin-top: 50px;
     margin-left: 50px;
 }
-.part1 p{
-    font-size:20px ;
-    margin-left: 50px;
-}
 
-.part1 h4{
+.part1 p {
+    font-size: 20px;
+    margin-left: 50px;
+    
+    
+}
+           
+.part1 h4 {
     margin-top: 50px;
     margin-left: 50px;
     margin-bottom: 50px;
-    
 
 }
+
 .btn {
     text-decoration: none;
     margin-left: 30px;
-    
+
 }
-.main-part3{
+
+.main-part3 {
     height: 14px;
     width: 100%;
-    background: url("/images/oracle3.png") no-repeat ;
+    background: url("/images/oracle3.png") no-repeat;
     background-size: cover;
 
 }
-.part-pic1
-{
-height: 500px;
-width: 100%;
-background-color:rgb(232, 228, 233);
+
+.part-pic1 {
+    height: 480px;
+    width: 100%;
+    background-color: rgb(232, 228, 233);
 
 }
-.pic1-inner1{
-    height: 100%;
-    width:50%;
-    background-color :rgb(232, 228, 233);
-    float: left;
-}
-.pic1-inner2{
+
+.pic1-inner1 {
     height: 100%;
     width: 50%;
-    background-color:rgb(243, 232, 245);
+    background-color: rgb(232, 228, 233);
+    float: left;
+}
+
+.pic1-inner2 {
+    height: 100%;
+    width: 50%;
+    background-color: rgb(243, 232, 245);
     float: left;
     padding-top: 50px;
 
 }
-.dash{
-    height:10px;
+
+.dash {
+    height: 10px;
     width: 100px;
     background-color: yellow;
 }
-#pic-pre p{
+
+#pic-pre p {
     font-size: 20px;
     margin-top: 30px;
 
 }
-.video{
-    height:220px;
+
+.video-container {
+    height: 220px;
     width: 350px;
     background-color: lightcoral;
     margin-top: 100px;
     margin-left: 80px;
+    overflow: hidden;
 }
-.video button img{
+
+.video button img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     overflow: hidden;
     border-radius: 10px;
+}
+.video-p{
+    height: 100px;
+    width: 100%;
+    /* background-color: pink; */
+    padding-top: 10px;
+    padding-left: 80px;
+}
+.video-p  a{
+font-size: 20px;
+text-decoration: none;
+
+}
+.video-container2{
+    height: 250px;
+    width: 70%;
+    background-color: pink;
+    margin-top: 100px;
+    margin-left: 50px;
+    
 }
