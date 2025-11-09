@@ -162,3 +162,44 @@ text-decoration: none;
     margin-left: 50px;
     
 }
+.card-container1
+{
+    height: 800px;
+    width: 100%;
+    background-color: violet;
+    
+}
+.card-part1{
+    height: 480px;
+    width: 380px;
+    background-color: crimson;
+    margin-left: 40px;
+    margin-top: 50px;
+    float: left;
+    border-radius: 10px;
+    
+}
+.card-part{
+    height: 600px;
+    width: 900px;
+    background-color: aqua;
+    margin-left: 220PX;
+    
+
+}
+.card-pic{
+    height: 190px;
+    width: 100%;
+    background-color: aquamarine;
+    float: left;
+    object-fit:fill;
+    overflow: hidden;
+  
+    border-radius:10px ;
+}
+.card-p{
+    height: 220px;
+    width: 100%;
+    background-color: plum;
+    float: left;
+}
