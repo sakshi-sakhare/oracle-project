@@ -38,6 +38,7 @@ a:hover {
     height: 550px;
     width: 100%;
     /* background-color: rgb(202, 224, 202); */
+   
 }
 
 .part1 {
@@ -49,6 +50,7 @@ a:hover {
     
   */
 }
+
 
 .part2 {
     height: 100%;
@@ -66,12 +68,13 @@ a:hover {
 .part1 p {
     font-size: 20px;
     margin-left: 50px;
+    margin-top: 10px;
     
     
 }
            
 .part1 h4 {
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 50px;
     margin-bottom: 50px;
 
@@ -101,23 +104,25 @@ a:hover {
 .pic1-inner1 {
     height: 100%;
     width: 50%;
-    background-color: rgb(232, 228, 233);
+    background-color: rgb(246, 244, 247);
     float: left;
 }
 
 .pic1-inner2 {
     height: 100%;
     width: 50%;
-    background-color: rgb(243, 232, 245);
+    background-color: rgb(246, 244, 247);
     float: left;
     padding-top: 50px;
-
+  
 }
 
-.dash {
-    height: 10px;
-    width: 100px;
-    background-color: yellow;
+#org-dash1{
+    height: 5px;
+    width: 50px;
+    background-color: rgb(248, 238, 99);
+    margin-left: 50px;
+    margin-top: 20px;
 }
 
 #pic-pre p {
@@ -164,42 +169,111 @@ text-decoration: none;
 }
 .card-container1
 {
-    height: 800px;
+    height: 1090px;
     width: 100%;
-    background-color: violet;
+    /* background-color: violet; */
     
 }
 .card-part1{
     height: 480px;
     width: 380px;
-    background-color: crimson;
-    margin-left: 40px;
+    /* background-color: crimson; */
+    background-color: rgb(246, 244, 247);
+    
+    margin-left: 30px;
     margin-top: 50px;
     float: left;
     border-radius: 10px;
     
 }
-.card-part{
-    height: 600px;
-    width: 900px;
-    background-color: aqua;
-    margin-left: 220PX;
+.card-part-box1{
+    height: 530px;
+    width: 860px;
+    /* background-color: aqua; */
+    margin-left: 240PX;
     
 
 }
 .card-pic{
-    height: 190px;
+    height: 180px;
     width: 100%;
     background-color: aquamarine;
     float: left;
-    object-fit:fill;
+    object-fit:cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     overflow: hidden;
-  
-    border-radius:10px ;
 }
 .card-p{
     height: 220px;
     width: 100%;
-    background-color: plum;
+    /* background-color: plum; */
     float: left;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+.card-button a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+.card-part-box2{   
+    margin-top: 0px;   
+    height: 530px;
+    width: 860px;
+    /* background-color: aqua; */
+    margin-left: 240PX;
+}
+.card-part2{
+    height: 480px;
+    width: 380px;
+    /* background-color: crimson; */
+    background-color: rgb(246, 244, 247);
+    margin-left: 30px;
+    margin-top: 30px;
+    float: left;
+    border-radius: 10px;
+    
+}
+#org-dash2{
+    height: 5px;
+    width: 50px;
+    background-color: rgb(248, 238, 99);
+    margin-top: 20px;
+}
+.next-part{
+    height: 700px;
+    width:100%;
+    /* background-color: blue; */
+}
+
+.next1{
+    height:100%;
+    width: 50%;
+    /* background-color: lightgray; */
+    float: left;
+    padding-left: 50px;
+}
+.next2{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(243, 201, 201);
+    float: left;
+}
+.next1 p{
+    font-size: 20px;
+}
+.org-dash3{
+    height: 6px;
+    width: 50px;
+    background-color: rgb(248, 238, 99);
+    margin-top: 20px;
+}
+.next1 p{
+    margin-top: 20px;
+}
+i{
+    font-size: 45px;
 }
