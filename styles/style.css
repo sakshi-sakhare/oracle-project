@@ -63,6 +63,7 @@ a:hover {
     font-size: 50px;
     margin-top: 50px;
     margin-left: 50px;
+    font-family: serif;
 }
 
 .part1 p {
@@ -244,7 +245,7 @@ text-decoration: none;
     margin-top: 20px;
 }
 .next-part{
-    height: 700px;
+    height: 620px;
     width:100%;
     /* background-color: blue; */
 }
@@ -265,6 +266,9 @@ text-decoration: none;
 .next1 p{
     font-size: 20px;
 }
+.next1 h2{
+    font-family: serif;
+}
 .org-dash3{
     height: 6px;
     width: 50px;
@@ -277,3 +281,168 @@ text-decoration: none;
 i{
     font-size: 45px;
 }
+.td{
+  padding: 0px;
+}
+.pic-card-container
+{
+height: 250px;
+width: 100%;
+/* background-color: brown; */
+background-color: rgb(246, 244, 247);
+margin-top: 10px;
+}
+.table-contener{
+    height:80%;
+    width:95%;
+    /* background-color: aqua; */
+    margin-left:50px ;
+
+}
+.table-img{
+    height: 150px;
+    width: 240px;
+    /* background-color: pink */
+    ;margin-top: 25px;
+    
+
+}
+.table-img2{
+    height: 150px;
+    width: 240px;
+    /* background-color: pink */
+    ;margin-top: 30px;
+    
+
+}
+.table-img img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    object-fit:fill;
+    border-radius: 7px;
+}
+.table-img2 img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    object-fit:fill;
+    border-radius: 7px;
+}
+.td-space{
+    padding-left: 30px;
+    padding-right: 40px;
+}
+.table-pra{
+    height: 150px;
+    width: 350px;
+    /* background-color: blueviolet; */
+    padding-top: 15px;
+}
+td{
+    border-left: 2px solid black;
+}
+.big-box{
+    height: 800px;
+    width: 100%;
+    background-color:rgb(10, 10, 92);
+
+}
+.box-header1{
+    height: 150px;
+    width: 50%;
+    background-color: palevioletred;
+    float: left;
+    font-family: fantasy;
+}
+.box-header2{
+    height: 150px;
+    width: 50%;
+    background-color: rgb(216, 112, 112);
+    float: left;
+    padding-top: 40px;
+   padding-left: 30%;
+}
+.box-body{
+    height: 500px;
+    width: 28%;
+    background-color: darkgrey;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+.box-part1{
+    height: 50%;
+    width: 100%;
+    background-color: brown;
+    float: left;
+    
+    
+}
+.box-part1 a{
+    color: white;
+}
+
+.box-part1 p {
+    color: white;
+    text-decoration: none ;
+}
+
+.box-part1 :hover .box1{
+    color: orange; 
+ 
+}
+.box-part1:hover .box2{
+    color:white;
+
+}
+
+.box-part2{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(199, 179, 179);
+    float: left;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.box1{
+    height: 40%;
+    width: 100%;
+    background-color: darkmagenta;
+    font-family:fantasy;
+    padding-top: 20px;
+    align-items: center;
+    /* font-size: 30px; */
+   
+
+}
+.box1 h4{
+    font-size:30px;
+}
+.box2{
+    height: 60%;
+    width: 100%;
+    background-color: rgb(203, 235, 128);
+    color: rgb(248, 246, 246);
+}
+.box2 a{
+    text-decoration: none;
+}
+.box-header1 h2{
+    margin-left: 50px;
+    color: white;
+    text-align: left;
+    margin-top: 20px;
+}
+.box-header2  a{
+   
+    color: orange;
+    text-decoration: none;
+    text-align: center;
+
+    
+}
+
+
+ 
